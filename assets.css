@@ -102,7 +102,7 @@ li {
     background-color: white;
     color: #004AEF;
     border: none;
-    border-radius: 10px;
+    border-radius: 15px;
     font-weight: bold;
 }
 
@@ -144,7 +144,7 @@ li a {
     background-color: white;
     color: #004AEF;
     border: none;
-    border-radius: 10px;
+    border-radius: 15px;
     font-weight: bold;
     width: 22%;
 }
@@ -160,7 +160,7 @@ li a {
     color: white;
     background: transparent;
     border: 1px solid white;
-    border-radius: 10px;
+    border-radius: 1px;
     font-weight: bold;
     width: 22%;
 }
@@ -228,7 +228,7 @@ button {
     background-color:#004AEF;
     color: white;
     border: none;
-    border-radius: 10px;
+    border-radius: 15px;
     font-weight: bold;
     width: 22%;
     margin-top: 15px;
