@@ -160,7 +160,7 @@ li a {
     color: white;
     background: transparent;
     border: 1px solid white;
-    border-radius: 1px;
+    border-radius: 15px;
     font-weight: bold;
     width: 22%;
 }
