@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -9,13 +11,24 @@
     height: 15%;
     /* background-color: red; */
     display: flex;
-    font-family: sans-serif;
+}
+
+.logo {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.left>a {
+    text-decoration: none;
 }
 
 .container {
     width: 100vw;
     height: 100vh;
     /* background-color: purple; */
+    background-color: #004AEF;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .main-container {
@@ -86,53 +99,75 @@ li {
 
 #login {
     padding: 7px 2em;
-    background-color: #004AEF;
-    color: white;
+    background-color: white;
+    color: #004AEF;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-weight: bold;
+}
+
+#login:hover{
+        
+    color: white;
+    background-color: #004AEF;
+    border: 1px solid white;
 }
 
 li a {
     padding: 14px 16px;
     text-decoration: none;
-    color: #004AEF;
+    color: white;
     font-weight: bold;
 }
 
 .heading,
 .paragraphs {
-    color: #004AEF;
-    font-family: sans-serif;
+    color: white;
+}
+
+.heading>p {
+    font-size: 48px;
 }
 
 .paragraphs {
-    opacity: 0.5;
     margin-bottom: 15px;
+    font-size: 20px;
+
 }
 
 .heading {
     margin-bottom: 20px;
 }
 
-#about {
-    padding: 7px 2em;
-    background-color: #004AEF;
-    color: white;
+#apply {
+    padding: 10px 2em;
+    background-color: white;
+    color: #004AEF;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-weight: bold;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 22%;
+}
+
+#apply:hover {
+    color: white;
+    background-color: #004AEF;
+    border: 1px solid white;
 }
 
 #start {
-    padding: 7px 2em;
-    background-color: #FFCC00;
+    padding: 10px 2em;
     color: white;
-    border: none;
-    border-radius: 5px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
     font-weight: bold;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 22%;
+}
+
+#start:hover {
+    color: #004AEF;
+    background-color: white;
 }
 
 button {
@@ -142,57 +177,92 @@ button {
 .about-container {
     width: 100vw;
     height: 60vh;
-    background-color: #EFE8FF;
     display: flex;
-    font-family: sans-serif;
+    font-family: 'DM Sans', sans-serif;
 }
 
-.about-left {
-    width: 70%;
+.about-right {
+    width: 50%;
     /* background-color: yellow; */
     height: 100%;
     margin-left: 3%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #004AEF;
 }
 
-.about-right {
-    width: 30%;
-    /* background-color: rgb(238, 195, S195); */
+.about-left {
+    width: 50%;
+    /* background-color: black; */
     height: 100%;
-    display: grid;
-    grid-template-columns: auto auto;
-}
-
-.about-left>h3 {
-    margin-bottom: 30px;
-}
-
-.material-icons {
-    color: #FFCC00;
-}
-.material-icons.md-36 { font-size: 36px; }
-
-.icons {
-    background-color: rgb(255,204,0, 0.04);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 20% 3%;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    border-radius: 10px;
-    height: 55%;
-    width: 73%;
+    justify-content: center;
 }
 
-.icons>p {
-    color: #004AEF;
+.about-right>h3 {
+    margin-bottom: 30px;
 }
 
 #border-down {
     border-bottom: 2px solid #004AEF;
-    display: inline;
+    /* display: inline; */
+}
+
+.about-image {
+    width: 80%;
+    height: 80%;
+}
+
+.about-paragraphs>p {
+    color: black;
+    margin-top: 20px;
+}
+.about-paragraphs>span {
+    color: #004AEF;
+    font-size: 2em;
+}
+
+#learn-btn {
+    padding: 10px 2em;
+    background-color:#004AEF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 22%;
+    margin-top: 15px;
+    
+}
+
+#learn-btn:hover{
+    color: #004AEF;
+    background: transparent;
+    border: 1px solid #004AEF;
+}
+
+.title{
+    width: 100vw;
+    height: 15vh;
+    padding-top: 20px;
+    /* background-color: lavender; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.title>h3 {
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+}
+.title>h3:before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 5%;
+    border-bottom: 3px solid #004AEF;
 }
