@@ -319,3 +319,102 @@ button {
 .desc{
     text-align: center;
 }
+
+.contact-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    /* background-color: black; */
+    align-items: center;
+    justify-content: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.contact-left{
+    height: 100%;
+    width: 50%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-right {
+    height: 100%;
+    width: 50%;
+    /* background-color: chartreuse; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-card {
+    width: 90%;
+    height: 90%;
+    background: #004AEF;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: white;
+    padding: 3%;
+
+}
+
+.contact-form{
+    width: 90%;
+    height: 90%;
+    /* background: pink; */
+    display: flex;
+    padding: 10%;
+
+}
+
+input, textarea {
+    border: 1px solid #004AEF;
+    outline: none;
+}
+
+input {
+    height: 3em;
+    padding-left: 3px;
+}
+textarea{
+    height: 6m;
+}
+label {
+    font-weight: bold;
+}
+
+.formleft{
+    width: 50%;
+    height: fit-content;
+    /* background-color: aquamarine; */
+}
+
+.formright{
+    width: 50%;
+    height: fit-content;
+    /* background-color: crimson; */
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2em;
+
+}
+
+.submit-btn {
+    padding: 10px 2em;
+    background-color:#004AEF;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-weight: bold;
+    margin-top: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.submit-btn:hover{
+    color: #004AEF;
+    background: transparent;
+    border: 1px solid #004AEF;
+}
