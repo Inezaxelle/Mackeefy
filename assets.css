@@ -176,7 +176,7 @@ button {
 
 .about-container {
     width: 100vw;
-    height: 60vh;
+    height: 100vh;
     display: flex;
     font-family: 'DM Sans', sans-serif;
 }
@@ -204,23 +204,20 @@ button {
     margin-bottom: 30px;
 }
 
-#border-down {
-    border-bottom: 2px solid #004AEF;
-    /* display: inline; */
-}
 
 .about-image {
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
 }
 
 .about-paragraphs>p {
     color: black;
     margin-top: 20px;
+    font-size: 3em;
 }
 .about-paragraphs>span {
     color: #004AEF;
-    font-size: 2em;
+    font-size: 3em;
 }
 
 #learn-btn {
@@ -264,5 +261,61 @@ button {
     height: 1px;
     bottom: 0;
     left: 5%;
-    border-bottom: 3px solid #004AEF;
+    border-bottom: 5px solid #004AEF;
+    border-radius: 10px;
+}
+
+#features-title{
+    background-color: lavender;
+}
+
+.feature-container{
+    width: 100vw;
+    height: 140vh;
+    background-color: lavender;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.gallery-container{
+    width: 95%;
+    height: 90%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 3%;
+}
+
+.gallery{
+    width: 28%;
+    max-height: 40%;
+    background-color:#004AEF;
+    color: white;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 2% 2%;
+    cursor: pointer;
+}
+
+.gallery:hover{
+    color: #004AEF;
+    background-color: white;
+}
+
+.feature-image {
+    /* height: 80%;
+    width: 80%; */
+    margin-bottom: 10px;
+}
+
+.desc{
+    text-align: center;
 }
