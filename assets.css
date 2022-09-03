@@ -355,7 +355,8 @@ button {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     color: white;
-    padding: 3%;
+    position: relative;
+    
 
 }
 
@@ -417,4 +418,58 @@ label {
     color: #004AEF;
     background: transparent;
     border: 1px solid #004AEF;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    font-weight: bold;
+
+}
+
+.contact-card>h2,p{
+    margin-top: 3%;
+    margin-left: 3%;
+}
+.contact {
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 3%;
+}
+
+.contact-icon {
+    color: yellow;
+    margin-right: 7px;
+}
+
+.frames {
+   display: flex;
+}
+
+.yellow{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+}
+.blue {
+    position: absolute;
+    right: 7%;
+    bottom: 7%;
+}
+.footer-container {
+    background-color: #004AEF;
+    width: 100vw;
+    height: 100vh;
+}
+
+.contact-icons {
+    position: absolute;
+    bottom: 10px;
+    left: 3%;
+}
+
+.socialmedia {
+    margin-right: 10px;
 }
