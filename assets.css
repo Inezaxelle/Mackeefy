@@ -482,7 +482,6 @@ label {
 }
 
 .socialmedia {
-    margin-right: 10px;
     cursor: pointer;
 }
 
@@ -702,7 +701,7 @@ label {
         padding: 10px 2em;
         border-radius: 15px;
         font-weight: bold;
-        width: 30%;
+        width: 40%;
         /* margin-left: 3%; */
     }
 
@@ -717,5 +716,12 @@ label {
     }
     .right {
         width: 70%;
+    }
+    #apply, #start {
+        padding: 10px 2em;
+        border-radius: 15px;
+        font-weight: bold;
+        width: 40%;
+        /* margin-left: 3%; */
     }
 }
