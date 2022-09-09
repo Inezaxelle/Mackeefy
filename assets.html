@@ -21,14 +21,17 @@
                 <a href="./assets.html"><span class="logo">Mackeefy</span></a>
             </div>
             <div class="right">
-                <ul>
+                <ul class="topnav">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#feature">Features</a></li>
                     <li><a href="#apply">Apply</a></li>
                     <li><a href="#contact">Contact Us</a></li>
-                    <li><button id="login">Sign in</button></li>
                 </ul>
+                <li><button id="login">Sign in</button></li>
+                <li class="responsive-icon"><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a></li>
 
             </div>
         </div>
@@ -72,7 +75,6 @@
                 class="about-image">
         </div>
         <div class="about-right">
-
 
             <div class="about-paragraphs">
                 <span>High <b>Quality </b> Services <br>
@@ -207,7 +209,7 @@
                         </div>
                     </div>
                     <div class="block-inputs">
-                        <div class="oneinput">
+                        <div class="oneinput" id="message">
                             <label for="message">Message</label> <br>
                             <textarea rows="4" cols="50" name="comment" form="usrform">
                             </textarea>
